@@ -1,0 +1,17 @@
+extends layout
+
+block src
+
+block content
+    #header
+        h1= title
+        p Welcome to #{title}
+    #section
+        p= date
+        ul
+            -for(var i=0; i<5; i++){
+                li coding
+            - }
+
+    #footer
+        p footer
